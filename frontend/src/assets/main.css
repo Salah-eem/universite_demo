@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* utilitaires */
+.container-max { @apply max-w-7xl mx-auto px-4; }
+.card { @apply bg-white rounded-2xl shadow p-4 md:p-6; }
+.input { @apply w-full rounded-xl border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-black/10; }
+.btn { @apply inline-flex items-center gap-2 rounded-xl border px-3 py-2 hover:bg-gray-50; }
+
+/* badges — ne pas @apply une classe custom */
+.badge { @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium; }
+.badge-green { @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium bg-green-100 text-green-800; }
+.badge-red { @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium bg-red-100 text-red-800; }
